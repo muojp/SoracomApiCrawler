@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using System.Configuration;
+﻿using System.Configuration;
+using System.Threading.Tasks;
 
 namespace SoracomApiCrawler.Runner
 {
