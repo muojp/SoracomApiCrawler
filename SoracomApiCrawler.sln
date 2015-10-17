@@ -5,12 +5,15 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoracomApiCrawler.Runner", "SoracomApiCrawler.Runner\SoracomApiCrawler.Runner.csproj", "{9BB68F6F-0E81-4DF2-AA68-4FBCA0AA1434}"
 	ProjectSection(ProjectDependencies) = postProject
-		{F8012ECB-4912-4479-B411-D89A22D84AB6} = {F8012ECB-4912-4479-B411-D89A22D84AB6}
+		{D0E593E8-64EB-43FA-B51E-829E81066797} = {D0E593E8-64EB-43FA-B51E-829E81066797}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoracomApiCrawler.Lib", "SoracomApiCrawler.Lib\SoracomApiCrawler.Lib.csproj", "{F8012ECB-4912-4479-B411-D89A22D84AB6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoracomApiCrawler.RunnerSample", "SoracomApiCrawler.RunnerSample\SoracomApiCrawler.RunnerSample.csproj", "{F8E6775F-C6E0-429E-9CE8-6443D9F8E159}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0E593E8-64EB-43FA-B51E-829E81066797} = {D0E593E8-64EB-43FA-B51E-829E81066797}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Lib", "Crawler.Lib\Crawler.Lib.csproj", "{D0E593E8-64EB-43FA-B51E-829E81066797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,14 +25,14 @@ Global
 		{9BB68F6F-0E81-4DF2-AA68-4FBCA0AA1434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BB68F6F-0E81-4DF2-AA68-4FBCA0AA1434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BB68F6F-0E81-4DF2-AA68-4FBCA0AA1434}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8012ECB-4912-4479-B411-D89A22D84AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8012ECB-4912-4479-B411-D89A22D84AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8012ECB-4912-4479-B411-D89A22D84AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8012ECB-4912-4479-B411-D89A22D84AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8E6775F-C6E0-429E-9CE8-6443D9F8E159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8E6775F-C6E0-429E-9CE8-6443D9F8E159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8E6775F-C6E0-429E-9CE8-6443D9F8E159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8E6775F-C6E0-429E-9CE8-6443D9F8E159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E593E8-64EB-43FA-B51E-829E81066797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E593E8-64EB-43FA-B51E-829E81066797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E593E8-64EB-43FA-B51E-829E81066797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E593E8-64EB-43FA-B51E-829E81066797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
