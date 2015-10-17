@@ -1,0 +1,1 @@
+# SORACOM API no crawler
